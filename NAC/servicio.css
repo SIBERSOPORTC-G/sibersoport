@@ -1,0 +1,139 @@
+body{
+	background: #bfcde6;
+}
+
+#menu{
+    margin: 30px auto;
+	width: 1200px;
+	height: 120px;
+	background-color: blue;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 120px;
+	float: left;
+	-webkit-transition: height .4s;
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu a{
+	text-decoration: none;
+}
+
+ div#uno{
+ 	background-color: rgb(208, 101, 3);
+ }
+
+ div#dos{
+ 	background-color: rgb(233, 147, 26);
+ }
+
+ div#tres{
+ 	background-color: rgb(22, 141, 190);
+ }
+
+ div#cuatro{
+ 	background-color: rgb(22, 107, 162);
+ }
+
+ div#cinco{
+ 	background-color: rgb(138, 43, 226);
+ }
+
+ div#seis{
+ 	background-color: rgb(186,85, 211);
+ }
+
+img.icon{
+	display: block;
+	margin: 10px auto;
+	background-color: rgba(255, 255, 255, .15);
+	width: 40px;
+	padding: 10px;
+	-webkit-border-radius: 30%;
+	-webkit-box-shadow: 0px 0px 0px 15px rgba(255,255,255,0);
+	-webkit-transition: box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height: 140px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+#portafolio{
+    margin: 50px auto;
+	width: 1200px;
+	height: 550px;
+	background-color: #bfcde6;
+}
+
+.container{
+	width: 200%;
+	max-width: 1200px;
+	height: 330px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	margin: 30px;
+}
+
+.container .card{
+	width: 230px;
+	height: 330px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.container .card:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+	width: 330px;
+	height: 220px;
+}
+
+.container .card h4{
+	font-weight: G00;
+	margin: 10px;
+}
+
+.container .card p{
+	padding: 0 1 rem;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 10px;
+}
+
+.container .card a{
+	font-weight: 500;
+	text-decoration: underline;
+	color: #3498db;
+}
